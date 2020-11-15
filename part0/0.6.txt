@@ -1,0 +1,13 @@
+user->browser: User submits a new note
+
+note over browser:
+Browser loads dynamically the new data locally
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+Server updated the database with the new note so that next time when the
+page reloads, it will send the new data
+end note
+server-->browser: 201 Created success status response

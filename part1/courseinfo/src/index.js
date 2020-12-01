@@ -70,4 +70,8 @@ const App = () => {
   );
 };
 
+<<<<<<< HEAD
 ReactDOM.render(<App />, document.getElementById("root"));
+=======
+ReactDOM.render(<App />, document.getElementById("root"));
+>>>>>>> develop
